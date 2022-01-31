@@ -1,0 +1,19 @@
+package ac;
+
+ class Am1{
+	 void disply()
+	 {
+		 System.out.println("defult  access modifier");
+	 }
+ }
+
+public class Am {
+
+	public static void main(String[] args) defalut
+		{
+		
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package ac;
+
+ class Am1{
+	 void disply()
+	 {
+		 System.out.println("defult access modifier");
+	 }
+	 private void lm()
+	 {
+		 System.out.println("private Access Modifier");
+	 }
+ }
+
+public class Am {
+
+	public static void main(String[] args) 
+		{
+		
+	Am1 obj= new Am1();
+	obj.disply();
+	obj.lm();
+	
+		}
+
+	}
+

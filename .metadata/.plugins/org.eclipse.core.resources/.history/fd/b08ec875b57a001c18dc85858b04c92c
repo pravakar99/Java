@@ -1,0 +1,9 @@
+package pkr;
+
+public class A {
+	private void display() 
+    { 
+        System.out.println("hello world"); 
+    } 
+	
+}

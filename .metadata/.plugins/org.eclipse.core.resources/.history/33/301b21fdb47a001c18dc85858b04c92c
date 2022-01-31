@@ -1,0 +1,11 @@
+package Type;
+
+public class Basic {
+	public static void main(String args[])
+	{
+		int a=100;
+		float b=a;
+		System.out.print(b);
+	}
+
+}
