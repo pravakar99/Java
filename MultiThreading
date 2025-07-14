@@ -1,0 +1,86 @@
+🔰 Beginner-Level Multithreading Questions (0–2 years)
+What is a thread in Java?
+What is the difference between process and thread?
+How do you create a thread in Java?
+
+Extending Thread class
+Implementing Runnable interface
+What is the lifecycle of a thread?
+What are the different thread states in Java?
+What is the difference between start() and run()?
+What is the use of Thread.sleep()?
+What is the difference between sleep() and wait()?
+What is a daemon thread?
+How do you stop a thread in Java?
+What is thread priority?
+What is Thread.yield()?
+What is the default priority of a thread in Java?
+What is a race condition?
+What is synchronization in Java?
+
+⚙️ Intermediate-Level Multithreading Questions (2–5 years)
+What is the difference between synchronized method and synchronized block?
+What is a deadlock? How can you avoid it?
+What is thread starvation and how to avoid it?
+What is thread livelock?
+What is reentrant synchronization in Java?
+What are volatile and transient keywords in multithreading?
+Difference between wait(), notify(), and notifyAll()?
+What is the use of join() method?
+What is a thread pool? How to create it in Java?
+What is the difference between Runnable and Callable?
+How does Future work in Java?
+What is ExecutorService?
+What is ScheduledExecutorService?
+What is a blocking queue?
+What is ThreadLocal and when to use it?
+What is CountDownLatch?
+What is CyclicBarrier?
+What is Semaphore?
+What is ReentrantLock? How is it different from synchronized?
+What is the difference between ReentrantLock and ReadWriteLock?
+
+🚀 Advanced-Level Multithreading Questions (5–10 years)
+What is the internal working of thread scheduling in Java?
+How does Java Memory Model (JMM) affect multithreading?
+What is instruction reordering in multithreading?
+Explain happens-before relationship.
+What are false sharing and cache coherence in CPU multithreading?
+How does volatile prevent instruction reordering?
+What is the difference between AtomicInteger and synchronized block?
+What are atomic classes in java.util.concurrent.atomic package?
+How to create a custom thread pool?
+What are common pitfalls in using ExecutorService?
+What is ForkJoinPool and when should you use it?
+What is the difference between ForkJoinPool and ExecutorService?
+What is work stealing in ForkJoinPool?
+What is CompletableFuture in Java 8?
+How is CompletableFuture better than Future?
+What is a reactive stream?
+How do you ensure thread safety in a multi-threaded environment?
+What is a thread-safe class? Give examples.
+How do you test multithreaded code?
+What tools or profilers are used to debug threading issues in Java?
+
+💡 Real-world Scenario-Based Questions
+How do you handle millions of tasks using threads in a scalable way?
+How do you avoid deadlocks in a large enterprise Java application?
+How would you design a rate-limiter using multithreading in Java?
+How do you implement a producer-consumer problem using BlockingQueue?
+Explain how your application handled concurrency in a past project.
+Have you used concurrent collections like ConcurrentHashMap? How do they work internally?
+Explain a situation where you faced a race condition and how you resolved it.
+How would you safely read and write to a shared resource in a microservices app?
+
+📦 Java Concurrency Utilities to Know
+ExecutorService
+Callable, Future, Runnable
+ForkJoinPool
+CompletableFuture
+ThreadPoolExecutor
+ConcurrentHashMap
+BlockingQueue
+Semaphore, CountDownLatch, CyclicBarrier
+ReentrantLock, ReadWriteLock
+ThreadLocal
+CopyOnWriteArrayList
